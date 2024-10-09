@@ -6,8 +6,7 @@
 '''
 
 def q1(): 
-  num = int(input("Input an integer: "))
-  print(f"In: {num}")
+  num = int(input("In: "))
   num1 = num % 2
   if num1 == 0:
     print(f"{num} is even")
@@ -15,8 +14,7 @@ def q1():
     print(f"{num} is odd")
 
 def q2(): 
-  name = input("Input a name: ")
-  print(f"In: {name}")
+  name = input("In: ")
   if name == "Kalisz":
     print("teacher")
   if name != "Kalisz":
@@ -26,5 +24,5 @@ def q2():
 #Do not alter the following code
 #Comment out the following code when running your tests
 
-#q1()
-#q2()
+q1()
+q2()
